@@ -1,0 +1,25 @@
+{
+  "name": "svetaine20",
+  "version": "1.0.0",
+  "description": "Mano svetaines npm dalykai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemuras/svetaine20.git"
+  },
+  "author": "Laima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemuras/svetaine20/issues"
+  },
+  "homepage": "https://github.com/lemuras/svetaine20#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
