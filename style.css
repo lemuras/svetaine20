@@ -112,7 +112,7 @@ span {
 }
 section {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
 }
 
@@ -147,4 +147,29 @@ footer span {
   right:0;
   bottom: 0;
   margin: 0 auto;
+  align-self: flex-start;
+  
+}
+footer {
+  display: flex;
+  
+}
+footer img {
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.text, section img {
+  width: 100%;
+}
+/*
+@media only screen and (min-width: 768px) {
+ 
+ .text, section img {
+   width: 50%;
+ }
+ 
+ .text:nth-of-type(even) {
+   
+ }
 }
