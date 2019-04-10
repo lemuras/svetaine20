@@ -40,6 +40,11 @@ form {
   -ms-flex-pack: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
   margin-bottom: 50px; }
 
 input, .vanduo button {
