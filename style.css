@@ -1,4 +1,150 @@
+body {
+  font-family: Lato;
+
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #f8f9fa;
+}
 h1 {
-  color: #ff3535; }
-  h1 span {
-    color: rgba(255, 53, 53, 0.7); }
+padding: 100px;
+font-size: 4rem;
+color: white;
+padding-bottom: 50px;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size:2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+form {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+margin-bottom: 50px;
+}
+
+input, .vanduo button {
+box-sizing: border-box;
+font-size: 50px;
+line-height: 100px;
+margin: 20px;
+margin-top: 0px;
+border-radius: 10px;
+}
+.vanduo input {
+padding-left: 40px;
+
+}
+
+.vanduo button {
+ border: 1px solid #007aff;
+background-color: #0079ff;
+color: white;
+}
+p {
+  font-size: 20px;
+}
+button.header {
+  background-color: #007aff;
+  border-radius: 5px;
+  border: 1px solid #007aff;
+  color: white;
+  width: 80px;
+  height: 40px;
+  align-self: center;
+}
+.vanduo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: 0 auto;
+  background-image: url('bg-masthead.jpg');
+background-size: cover;
+  
+  }
+
+  .foto img {
+border-radius: 50%;
+align-self: center;
+width: 200px;
+height: 200px;
+border: 1px solid rgba(176, 185, 193, 0.4);
+box-shadow: 2px 2px rgba(176, 185, 193, 0.4);
+}
+img {
+  width: 100px;
+
+}
+
+.center {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  margin: 0 auto;
+  
+}
+.center h3, .center img, .center span {
+  align-self: center;
+  
+}
+span {
+  font-size: 2rem;
+  color: grey;
+}
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.foto {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  margin: 0 auto;
+  
+}
+.foto h2, .foto span, .foto h4 {
+  align-self: center;
+  padding: 20px;
+}
+ul li {
+display: inline-block;
+padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+footer span {
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  margin: 0 auto;
+}
